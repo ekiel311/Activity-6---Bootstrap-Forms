@@ -1,0 +1,34 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 1600px;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+}
+
+.form--width{
+    max-width: 480px;
+    background-image: url(formbg.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    color: rgb(24, 51, 137);
+    font-weight: bold;
+}
+
+
+/* Remove arrow in number type input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
